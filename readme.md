@@ -4,7 +4,7 @@ This is a free and user-friendly Image to Text Image Converter built using HTML,
 
 ![demo image](./demo.png)
 
-👉 Check out the **[Live Demo](https://avinashtare.github.io/-Image-to-Text-Image-Converter/)** here! 🚀 Enjoy the experience! 👈
+👉 Check out the **[Live Demo](https://avinashtare.github.io/Image-to-Text-Image-Converter/)** here! 🚀 Enjoy the experience! 👈
 
 ### 🌟 Features
 
