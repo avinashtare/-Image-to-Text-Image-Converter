@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #242424;
+  color: #fff;
+}
+
+canvas {
+  display: block;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+}
+
+.controls {
+  margin-top: 0 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 250px;
+  height: 5px;
+  background: #fff;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #ffcc00;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="file"],
+button {
+  padding: 8px 12px;
+  background: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+input[type="file"]::file-selector-button {
+  background: #000;
+  color: #ffcc00;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="file"]:hover,
+input[type="range"]:hover,
+button:hover {
+  opacity: 0.8;
+}
