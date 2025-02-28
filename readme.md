@@ -32,10 +32,6 @@ This project is released under the [MIT License](LICENSE).
 
 **[avinashtare.work@gmail.com](mailto:avinashtare.work@gmail.com)**
 
-## ⭐ Give it a Star
-
-Found it interesting? Show your support by starring the repository on GitHub!
-
 ## Author
 
 **卐 🕉 Avinash Tare 🕉 卐**
